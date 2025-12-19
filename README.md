@@ -37,19 +37,6 @@ JavaScript – Interactivity & scroll effects
 
 Font Awesome – Icons
 
-📂 Project Structure
-portfolio-website/
-│
-├── index.html
-├── style.css
-├── script.js
-├── photos/
-│   ├── image.png
-│   ├── certificate1.png
-│   ├── certificate2.png
-│   └── certificate3.png
-└── README.md
-
 🚀 Getting Started (Run Locally)
 
 Clone the repository:
