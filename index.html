@@ -1,161 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
 
+<head>
   <meta name="description"
     content="Sk Rajib | Frontend Web Developer skilled in HTML, CSS, JavaScript. Fresher seeking entry-level web developer role.">
   <meta name="keywords" content="Frontend Developer, Web Developer, HTML, CSS, JavaScript, Fresher">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>SK Rajib | Portfolio</title>
 
-  <!-- Icons & Bootstrap -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-  <!-- Custom CSS -->
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <!-- ===== HEADER ===== -->
+  <header id="mainHeader">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Rajib <span class="dot"></span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certifications">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <label class="theme-switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider"></span>
+          </label>
 
-<!-- ===== HEADER ===== -->
-<header id="mainHeader">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
 
-      <a class="navbar-brand" href="#home">Rajib <span class="dot"></span></a>
+        </div>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-
-        <!-- Dark Mode Slider -->
-        <label class="theme-switch ms-lg-3">
-          <input type="checkbox" id="themeToggle">
-          <span class="slider"></span>
-        </label>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
-<main>
+  <!-- ===== MAIN ===== -->
+  <main>
 
-<!-- ===== HOME ===== -->
-<section id="home" class="home">
-  <div class="home-text">
-    <h2>Hi, I’m Sk Rajib</h2>
-    <h1>Frontend <span>Web Developer</span></h1>
-    <p>
-      I build clean, responsive, and user-focused websites using HTML, CSS,
-      JavaScript, and modern UI practices.
-    </p>
-  </div>
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="home-text">
+        <h2>Hi, I’m Sk Rajib </h2>
+        <h1>Frontend <span id="new">Web Developer</span></h1>
+        <p>
+          I build clean, responsive, and user-focused websites using HTML, CSS, JavaScript, and modern UI practices.
+          Actively seeking entry-level web developer opportunities.
+        </p>
+      </div>
+      <div class="home-img">
+        <img src="/skrajib-portfolio/photos/image.png" alt="SK Rajib">
+      </div>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a B.Tech student and aspiring frontend web developer with strong fundamentals in HTML, CSS, and
+        JavaScript. I enjoy building responsive websites and continuously improving my skills through real-world
+        projects.
+      </p>
 
-  <div class="home-img">
-    <img src="photos/image.png" alt="SK Rajib">
-  </div>
-</section>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2><i class="fa-solid fa-laptop-code"></i> Skills</h2>
+      <ul>
+        <li><i class="fa-brands fa-html5"></i> HTML5</li>
+        <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+        <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+        <li><i class="fa-brands fa-uikit"></i> UI / UX & Design Thinking</li>
+        <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+        <li><i class="fa-solid fa-building-columns"></i> Academic & Logic-Based Skills</li>
+      </ul>
+    </section>
 
-<!-- ===== ABOUT ===== -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    I am a B.Tech student and aspiring frontend web developer with strong
-    fundamentals in HTML, CSS, and JavaScript. I enjoy building responsive
-    websites and improving my skills through real-world projects.
-  </p>
-</section>
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2><i class="fa-solid fa-folder-open"></i> Projects</h2>
 
-<!-- ===== SKILLS ===== -->
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML5</li>
-    <li>CSS3</li>
-    <li>JavaScript</li>
-    <li>Bootstrap</li>
-    <li>Git & GitHub</li>
-    <li>UI / UX Design</li>
-  </ul>
-</section>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website showcasing my skills, projects, and contact information.</p>
+        <a href="https://skrajib56.github.io/skrajib-portfolio/" target="_blank">View Project</a>
+      </div>
+    </section>
 
-<!-- ===== PROJECTS ===== -->
-<section id="projects">
-  <h2>Projects</h2>
+    <!-- Certifications Section -->
+    <section id="certifications">
+      <h2>Certifications</h2>
 
-  <div class="project">
-    <h3>Personal Portfolio Website</h3>
-    <p>Responsive portfolio with dark mode, animations, and Formspree contact.</p>
-    <a href="https://skrajib56.github.io/skrajib-portfolio/" target="_blank">View Live</a>
-  </div>
-</section>
+      <div class="cert-slider-wrapper">
+        <button class="slide-btn left" onclick="slideLeft()">❮</button>
 
-<!-- ===== CERTIFICATIONS ===== -->
-<section id="certifications">
-  <h2>Certifications</h2>
+        <div class="cert-slider">
+          <a href="https://drive.google.com/file/d/1P_lnYfZBLkcPmpBARX-kMR1SQ1YNNYKY/view?usp=sharing" target="_blank"
+            class="cert-card">
+            <img src="/skrajib-portfolio/photos/pw.png" alt="Web Development Certificate">
+            <p>DSA Roadmap</p>
+          </a>
 
-  <div class="cert-slider-wrapper">
-    <button class="slide-btn left" onclick="slideLeft()">❮</button>
+          <a href="https://drive.google.com/file/d/15mrgIb6CjsAhvyvaxPyWT4lltU1qDOYK/view?usp=sharing" target="_blank"
+            class="cert-card">
+            <img src="/skrajib-portfolio/photos/ai.png" alt="AI Certificate">
+            <p>AI for Software Engineering</p>
+          </a>
 
-    <div class="cert-slider">
-      <a class="cert-card" target="_blank"
-        href="https://drive.google.com/file/d/1P_lnYfZBLkcPmpBARX-kMR1SQ1YNNYKY/view">
-        <img src="photos/pw.png" alt="DSA Roadmap">
-        <p>DSA Roadmap</p>
-      </a>
+          <a href="https://drive.google.com/file/d/1KdL6LRU13N501I2-3b7ReF9aWMFa3lVZ/view?usp=sharing" target="_blank"
+            class="cert-card">
+            <img src="/skrajib-portfolio/photos/Screenshot 2025-12-22 123822.png" alt="JavaScript Certificate">
+            <p>JavaScript Bootcamp</p>
+          </a>
 
-      <a class="cert-card" target="_blank"
-        href="https://drive.google.com/file/d/15mrgIb6CjsAhvyvaxPyWT4lltU1qDOYK/view">
-        <img src="photos/ai.png" alt="AI Certificate">
-        <p>AI for Software Engineering</p>
-      </a>
+          <a href="https://drive.google.com/file/d/1pibXnNT_Ev5XpQEY-5G0bMhIMzUKKau8/view?usp=sharing" target="_blank"
+            class="cert-card">
+            <img src="/skrajib-portfolio/photos/Screenshot 2025-12-22 234106.png alt="html, css Certificate">
+            <p>HTML, CSS Bootcamp</p>
+          </a>
+        </div>
 
-      <a class="cert-card" target="_blank"
-        href="https://drive.google.com/file/d/1KdL6LRU13N501I2-3b7ReF9aWMFa3lVZ/view">
-        <img src="photos/js.png" alt="JavaScript Certificate">
-        <p>JavaScript Bootcamp</p>
-      </a>
-    </div>
+        <button class="slide-btn right" onclick="slideRight()">❯</button>
+      </div>
+    </section>
 
-    <button class="slide-btn right" onclick="slideRight()">❯</button>
-  </div>
-</section>
+    <!--Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Let’s Build Something Together</h2>
+      <p class="contact-sub">
+        Open to internships, freelance work, and entry-level developer roles.
+      </p>
 
-<!-- ===== CONTACT ===== -->
-<section id="contact" class="contact">
-  <h2>Let’s Build Something Together</h2>
+      <div class="contact-grid">
 
-  <form class="contact-form"
-    action="https://formspree.io/f/xaqwpklp"
-    method="POST">
+        <!-- Contact Cards -->
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <p>skrajibjco@gmail.com</p>
+          <a href="mailto:skrajibjco@gmail.com">Send Email</a>
+        </div>
 
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <div class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <h3>GitHub</h3>
+          <p>View my projects</p>
+          <a href="https://github.com/skrajib56" target="_blank">Visit GitHub</a>
+        </div>
 
-    <button type="submit">Send Message</button>
-  </form>
-</section>
+        <div class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p>Let’s connect professionally</p>
+          <a href="https://www.linkedin.com/in/skrajib" target="_blank">Connect</a>
+        </div>
 
-</main>
+      </div>
 
-<!-- Scripts -->
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Quick Message Form -->
+      <form class="contact-form" action="https://formspree.io/f/xaqwpklp" method="POST">
+        <h3>Quick Message</h3>
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea rows="4" name="message" placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
